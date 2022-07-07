@@ -7,7 +7,8 @@ public class Quiz {
     float 4, double 8,
 
     2.
-    long regNo = 0001011111111L;
+    long regNo = 000101111111
+    1L;
 
     3.
     리터럴 : 100, 100L,f
