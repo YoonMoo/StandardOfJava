@@ -173,7 +173,7 @@ public class Quiz {
         System.out.println("result:"+result);*/
 
         // 5-11
-        /*int[][] score = {
+        int[][] score = {
                 {100, 100, 100}
                 , {20, 20, 20}
                 , {30, 30, 30}
@@ -183,21 +183,10 @@ public class Quiz {
         int[][] result = new int[score.length+1][score[0].length+1];
         for(int i=0; i < score.length;i++) {
             for(int j=0; j < score[i].length;j++) {
-                if(j == score[0].length-1){
-                    result[i][j] = score[i][j];
-
-                    for(int k = 0 ; k < score[0].length ; k++){
-                        result[i][j+1] += score[i][k];
-                    }
-                }
-                else if(i == score.length-1){
-                    result[i][j] = score[i][j];
-
-                    for(int l = 0 ; l < score.length ; l++){
-                        result[i+1][j] += score[l][j];
-                    }
-                }
-                else result[i][j] = score[i][j];
+                result[i][j] = score[i][j];
+                result[i][score[0].length] += result[i][j];
+                result[score.length][j] += result[i][j];
+                result[score.length][score[0].length] += result[i][j];
             }
         }
         for(int i=0; i < result.length;i++) {
@@ -205,7 +194,7 @@ public class Quiz {
                 System.out.printf("%4d",result[i][j]);
             }
             System.out.println();
-        }*/
+        }
 
         //5-12
         /*String[][] words = {
