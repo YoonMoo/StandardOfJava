@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/StandardOfJava.iml" filepath="$PROJECT_DIR$/.idea/StandardOfJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch.01/ch.01.iml" filepath="$PROJECT_DIR$/ch.01/ch.01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch.02_variable/ch.02_variable.iml" filepath="$PROJECT_DIR$/ch.02_variable/ch.02_variable.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch.03_Operator/ch.03_Operator.iml" filepath="$PROJECT_DIR$/ch.03_Operator/ch.03_Operator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch.04/ch.04.iml" filepath="$PROJECT_DIR$/ch.04/ch.04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch.05_Array/ch.05_Array.iml" filepath="$PROJECT_DIR$/ch.05_Array/ch.05_Array.iml" />
+    </modules>
+  </component>
+</project>
